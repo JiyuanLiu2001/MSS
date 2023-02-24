@@ -14,7 +14,7 @@ Copy the contents of the directory MSS/ to your computer and "add the path with 
 
     help MSS
 
-Examples and demo files are located under the catalogs: 
+Examples and demo files are located under the catalogs:
 
     /MSS/mssExamples/                       Textbook m-file examples (Fossen 2021)  
     /MSS/mssDemos/                          GNC m-file demos

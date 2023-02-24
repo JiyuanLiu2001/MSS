@@ -54,7 +54,7 @@ u     = x(1)/U;   v   = x(2)/U;
 p     = x(7)*L/U; r   = x(3)*L/U; 
 phi   = x(8);     psi = x(6); 
 delta = x(9);     n   = x(10)/60*L/U;
- 
+
 % Parameters, hydrodynamic derivatives and main dimensions
 m  = 0.00792;    mx     = 0.000238;   my = 0.007049;
 Ix = 0.0000176;  alphay = 0.05;       lx = 0.0313;
@@ -140,7 +140,7 @@ n_dot = 1/Tm*(n_c-n)*60;
 % Forces and moments
   X    = Xuu*u^2 + (1-t)*T + Xvr*v*r + Xvv*v^2 + Xrr*r^2 + Xphiphi*phi^2 + ...
          cRX*FN*sin(delta) + (m + my)*v*r;
-  
+
   Y    = Yv*v + Yr*r + Yp*p + Yphi*phi + Yvvv*v^3 + Yrrr*r^3 + Yvvr*v^2*r + ...
          Yvrr*v*r^2 + Yvvphi*v^2*phi + Yvphiphi*v*phi^2 + Yrrphi*r^2*phi + ...
          Yrphiphi*r*phi^2 + (1 + aH)*FN*cos(delta) - (m + mx)*u*r;

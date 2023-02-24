@@ -142,4 +142,3 @@ xdot = [  gX/m11
     delta_dot
     n_dot         ];
 
-    

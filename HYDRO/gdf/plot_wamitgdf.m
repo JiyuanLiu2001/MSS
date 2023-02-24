@@ -4,9 +4,9 @@ function gdf_data = plot_wamitgdf(filename,colorcode,figno,waterline,half)
 % Plot Wamit low-order geometry files (*.gdf) of ships and rigs in 3D.
 % GDF-file format:
 %
-% header
+% head
 % ULEN GRAV
-% ISX ISY
+% ISX ISYer
 % NPAN
 % X1(1) Y1(1) Z1(1) X2(1) Y2(1) Z2(1) X3(1) Y3(1) Z3(1) X4(1) Y4(1) Z4(1)
 % X1(2) Y1(2) Z1(2) X2(2) Y2(2) Z2(2) X3(2) Y3(2) Z3(2) X4(2) Y4(2) Z4(2)
