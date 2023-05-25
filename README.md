@@ -52,3 +52,21 @@ This is a stand-alone toolbox for identification of radiation-force models and f
  
     T. Perez and T. I. Fossen (2009). A Matlab Tool for Parametric Identification of Radiation-Force Models of Ships and Offshore Structures. 
     Modelling, Identification and Control, MIC-30(1):1-15. DOI: https://doi.org/10.4173/mic.2009.1.1 
+
+
+
+
+Section for Ship Hull Inspection (Individual Project Section)
+
+In points.csv, the data of 3D ship hull model consists of a set of 3D coordinates were included.
+
+In A_star.py, the algorithm comparison between A star, Dijkstra, and BFS algorithm were carried out based on Permutation Method
+and Nearest Neighbour Algorithm respectively.
+
+In A_star_plus.py, the comparison between the curve line comparison and the straight line comparison were carried out based on 
+Permutation Method and Nearest Neighbour Algorithm for arrangement of travelling sequence of way points respectively. And all
+comparisons were carried out based on using A star algorithm as graph search algorithm.
+
+Functions in data.py were imported and used in A_star.py and A_star_plus.py.
+
+By running test.py, the ship hull model and half ship hull model can be obtained.
