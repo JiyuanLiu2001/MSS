@@ -70,3 +70,5 @@ comparisons were carried out based on using A star algorithm as graph search alg
 Functions in data.py were imported and used in A_star.py and A_star_plus.py.
 
 By running test.py, the ship hull model and half ship hull model can be obtained.
+
+...
